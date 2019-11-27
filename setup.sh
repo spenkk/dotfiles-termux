@@ -18,7 +18,7 @@ if [ $user_input == "1" ]; then
   cp .zshrc ~/.zshrc
   cp theunraveler.zsh-theme ~/.oh-my-zsh/themes/theunraveler.zsh-theme
   termux-reload-settings
-  echo -e "e[31m[*] Done\e[0m"
+  echo -e "e[31m[*] Done\e[0m, just restart Termux"
 
 elif [ $user_input == "2" ]; then
 
@@ -27,7 +27,7 @@ elif [ $user_input == "2" ]; then
   cp .zshrc ~/.zshrc
   cp theunraveler.zsh-theme ~/.oh-my-zsh/themes/theunraveler.zsh-theme
   termux-reload-settings
-  echo -e "e[31m[*] Done\e[0m"
+  echo -e "e[31m[*] Done\e[0m, just restart Termux"
 
 else
   echo -e "e[31m[!] Wrong Choice\e[0m"
