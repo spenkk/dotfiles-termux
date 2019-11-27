@@ -8,6 +8,7 @@ read user_input
 if [ $user_input == "1" ]; then
 
   echo -e "\e[31m[*] Installing oh-my-zsh\e[0m"
+  pkg install zsh
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
   chsh -s zsh
 
